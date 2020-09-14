@@ -5,7 +5,7 @@ require_once('./checkSession.php');
 //引用資料庫連線
 require_once('./db.inc.php');
 
-//先查詢出特定 id (editId) 資料欄位中的大頭貼檔案名稱
+//先查詢出特定 id (editId) 資料欄位中的商品照檔案名稱
 $sqlGetImg = "SELECT `itemImg` FROM `item` WHERE `id` = ? ";
 $stmtGetImg = $pdo->prepare($sqlGetImg);
 

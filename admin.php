@@ -27,7 +27,7 @@ $page = $page < 1 ? 1 : $page;
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>我的 PHP 程式</title>
+    <title>後台程式</title>
     <style>
     .border {
         border: 1px solid;

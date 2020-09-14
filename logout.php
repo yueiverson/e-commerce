@@ -15,7 +15,7 @@ if(isset($_GET['logout']) && $_GET['logout'] == '1'){
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>我的 PHP 程式</title>
+    <title>登出程式</title>
     <style>
     .border {
         border: 1px solid;
