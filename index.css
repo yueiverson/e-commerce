@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color:#e0e0e0 ;
+}
+
+header ul {
+    background:#fafafa;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    list-style-type: none;
+}
+header ul li{
+    position: relative;
+    float: left;
+    left: 88vw;
+    padding:20px;
+}
+#login{
+    position: absolute;
+    top: 38%;
+    left:42%;
+}
+#logo img{
+    position: absolute;
+    top :63px;
+    left: 37%;
+
+}
